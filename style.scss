@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #555555;
+  color: #F5F3F5;
+
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 8vw;
+
+    main {
+      min-height: 60vh;
+      padding: 30px;
+      background-color: #84A07C;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      box-shadow: 4px 4px 4px hsla(0, 0%, 0%, 0.35);
+
+      p.date {
+        font-weight: bold;
+        color: #E8985E;
+      }
+
+      .temperatureBox {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        text-transform: uppercase;
+
+        .temperatureDescription {
+          padding: 10px 20px;
+          font-weight: bold;
+          border-radius: 15px;
+        }
+
+        .temperature {
+          font-size: 40px;
+          font-weight: bolder;
+        }
+
+        img {
+          width: 30%;
+        }
+      }
+      .app-bottom{
+        font-weight: bold;
+      }
+    }
+
+    nav {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 60vh;
+      min-width: 20vw;
+      gap:5vh;
+
+      .checkWeather {
+        padding: 6px;
+        display: flex;
+        align-items:center;
+        justify-content: space-evenly;
+        border-radius: 40px;
+        background-color: #84A07C;
+        box-shadow: 4px 4px 4px hsla(0, 0%, 0%, 0.35);
+
+          input {
+            height: 30px;
+            width: 70%;
+            padding: 5px;
+            background: none;
+            border: none;
+            outline: none;
+            font-size: 20px;
+            border-radius: 20px;
+          }
+
+          input::placeholder {
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+          }
+
+          button {
+            font-size: 30px;
+            color: #F5F3F5;
+            background: none;
+            border: none;
+          }
+
+          button:hover {
+            color: black;
+          }
+
+          input:hover::placeholder {
+            color: black;
+          }
+        }
+      }
+      .search-history{
+        height: 100%;
+        border-radius: 20px;
+        background-color: #84A07C;
+        text-align: center;
+        box-shadow: 4px 4px 4px hsla(0, 0%, 0%, 0.35);
+      }
+    }
+  }
+  footer {
+    background-color: #2C2C2C;
+    width: 100vw;
+    height: 10vh;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 25px;
+  }

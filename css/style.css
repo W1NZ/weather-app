@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #555555;
+  color: #F5F3F5;
+}
+body .container {
+  display: flex;
+  justify-content: center;
+  gap: 8vw;
+}
+body .container main {
+  min-height: 60vh;
+  padding: 30px;
+  background-color: #84A07C;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  box-shadow: 4px 4px 4px hsla(0deg, 0%, 0%, 0.35);
+}
+body .container main p.date {
+  font-weight: bold;
+  color: #E8985E;
+}
+body .container main .temperatureBox {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  text-transform: uppercase;
+}
+body .container main .temperatureBox .temperatureDescription {
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 15px;
+}
+body .container main .temperatureBox .temperature {
+  font-size: 40px;
+  font-weight: bolder;
+}
+body .container main .temperatureBox img {
+  width: 30%;
+}
+body .container main .app-bottom {
+  font-weight: bold;
+}
+body .container nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 60vh;
+  min-width: 20vw;
+  gap: 5vh;
+}
+body .container nav .checkWeather {
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 40px;
+  background-color: #84A07C;
+  box-shadow: 4px 4px 4px hsla(0deg, 0%, 0%, 0.35);
+}
+body .container nav .checkWeather input {
+  height: 30px;
+  width: 70%;
+  padding: 5px;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  border-radius: 20px;
+}
+body .container nav .checkWeather input::-moz-placeholder {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+body .container nav .checkWeather input:-ms-input-placeholder {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+body .container nav .checkWeather input::placeholder {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+body .container nav .checkWeather button {
+  font-size: 30px;
+  color: #F5F3F5;
+  background: none;
+  border: none;
+}
+body .container nav .checkWeather button:hover {
+  color: black;
+}
+body .container nav .checkWeather input:hover::-moz-placeholder {
+  color: black;
+}
+body .container nav .checkWeather input:hover:-ms-input-placeholder {
+  color: black;
+}
+body .container nav .checkWeather input:hover::placeholder {
+  color: black;
+}
+body .container .search-history {
+  height: 100%;
+  border-radius: 20px;
+  background-color: #84A07C;
+  text-align: center;
+  box-shadow: 4px 4px 4px hsla(0deg, 0%, 0%, 0.35);
+}
+
+footer {
+  background-color: #2C2C2C;
+  width: 100vw;
+  height: 10vh;
+  text-align: center;
+  padding: 5px 0;
+  font-size: 25px;
+}/*# sourceMappingURL=style.css.map */
