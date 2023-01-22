@@ -132,7 +132,7 @@ body .container .search-history #output {
 footer {
   background-color: #2C2C2C;
   width: 100vw;
-  height: 15vh;
+  height: 11vh;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -149,5 +149,8 @@ footer {
     flex-direction: column;
     gap: 8vw;
     padding: 20px;
+  }
+  footer {
+    height: 15vh;
   }
 }/*# sourceMappingURL=style.css.map */

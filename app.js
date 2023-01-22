@@ -69,7 +69,7 @@ window.addEventListener("DOMContentLoaded", function () {
 // nasłuchiwanie kliknięcia przycisku lupy
 button.addEventListener("click", checkWeather);
 // nasłuchiwanie kliknięcia Enter
-input.addEventListener('keypress', function (e) {
+input.addEventListener("keypress", function (e) {
   if (e.key === 'Enter') {
     checkWeather();
   }
@@ -92,7 +92,6 @@ function addText() {
   }
   localStorage.setItem("addedText", JSON.stringify(addedText));
   output.innerHTML = addedText.join("<br>");
-  input.value = "";
 }
 
 window.onload = function() {

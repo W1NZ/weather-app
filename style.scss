@@ -132,7 +132,7 @@ body {
   footer {
     background-color: #2C2C2C;
     width: 100vw;
-    height: 15vh;
+    height: 11vh;
     text-align: center;
     display:flex;
     justify-content: center;
@@ -149,5 +149,9 @@ body {
       flex-direction: column;
       gap: 8vw;
       padding:20px;
+    }
+
+    footer{
+      height: 15vh;
     }
 }
