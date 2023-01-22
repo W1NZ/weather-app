@@ -27,6 +27,9 @@ body .container main {
   justify-content: space-evenly;
   box-shadow: 4px 4px 4px hsla(0deg, 0%, 0%, 0.35);
 }
+body .container main h1 {
+  text-align: center;
+}
 body .container main p.date {
   font-weight: bold;
   color: #E8985E;
@@ -129,10 +132,14 @@ body .container .search-history #output {
 footer {
   background-color: #2C2C2C;
   width: 100vw;
-  height: 10vh;
+  height: 15vh;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 5px 0;
   font-size: 25px;
+  padding: 5px;
 }
 
 @media (max-width: 575.98px) {
