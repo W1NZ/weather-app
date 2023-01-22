@@ -78,6 +78,8 @@ body .container nav .checkWeather input {
   outline: none;
   font-size: 20px;
   border-radius: 20px;
+  color: #F5F3F5;
+  font-weight: bold;
 }
 body .container nav .checkWeather input::-moz-placeholder {
   color: rgb(255, 255, 255);
@@ -116,6 +118,13 @@ body .container .search-history {
   text-align: center;
   box-shadow: 4px 4px 4px hsla(0deg, 0%, 0%, 0.35);
 }
+body .container .search-history #output {
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  font-size: 26px;
+  line-height: 42px;
+}
 
 footer {
   background-color: #2C2C2C;
@@ -124,4 +133,14 @@ footer {
   text-align: center;
   padding: 5px 0;
   font-size: 25px;
+}
+
+@media (max-width: 575.98px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8vw;
+    padding: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */
