@@ -10,7 +10,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   background-color: #555555;
-  color: #F5F3F5;
+  color: #f5f3f5;
 }
 body .container {
   display: flex;
@@ -20,7 +20,7 @@ body .container {
 body .container main {
   min-height: 60vh;
   padding: 30px;
-  background-color: #84A07C;
+  background-color: #84a07c;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -32,7 +32,7 @@ body .container main h1 {
 }
 body .container main p.date {
   font-weight: bold;
-  color: #E8985E;
+  color: #e8985e;
 }
 body .container main .temperatureBox {
   display: flex;
@@ -69,7 +69,7 @@ body .container nav .checkWeather {
   align-items: center;
   justify-content: space-evenly;
   border-radius: 40px;
-  background-color: #84A07C;
+  background-color: #84a07c;
   box-shadow: 4px 4px 4px hsla(0deg, 0%, 0%, 0.35);
 }
 body .container nav .checkWeather input {
@@ -81,7 +81,7 @@ body .container nav .checkWeather input {
   outline: none;
   font-size: 20px;
   border-radius: 20px;
-  color: #F5F3F5;
+  color: #f5f3f5;
   font-weight: bold;
 }
 body .container nav .checkWeather input::-moz-placeholder {
@@ -98,7 +98,7 @@ body .container nav .checkWeather input::placeholder {
 }
 body .container nav .checkWeather button {
   font-size: 30px;
-  color: #F5F3F5;
+  color: #f5f3f5;
   background: none;
   border: none;
 }
@@ -117,7 +117,7 @@ body .container nav .checkWeather input:hover::placeholder {
 body .container .search-history {
   height: 100%;
   border-radius: 20px;
-  background-color: #84A07C;
+  background-color: #84a07c;
   text-align: center;
   box-shadow: 4px 4px 4px hsla(0deg, 0%, 0%, 0.35);
 }
@@ -130,7 +130,7 @@ body .container .search-history #output {
 }
 
 footer {
-  background-color: #2C2C2C;
+  background-color: #2c2c2c;
   width: 100vw;
   height: 11vh;
   text-align: center;

@@ -61,7 +61,7 @@ const checkWeather = () => {
       input.value = "";
     });
 };
-// Domyślnie wyświetlane miasto 
+// Domyślnie wyświetlane miasto
 window.addEventListener("DOMContentLoaded", function () {
   input.defaultValue = "Warsaw";
   checkWeather();
@@ -70,15 +70,15 @@ window.addEventListener("DOMContentLoaded", function () {
 button.addEventListener("click", checkWeather);
 // nasłuchiwanie kliknięcia Enter
 input.addEventListener("keypress", function (e) {
-  if (e.key === 'Enter') {
+  if (e.key === "Enter") {
     checkWeather();
   }
 });
 // Dodawanie ostatnich wyszukiwań
 const output = document.getElementById("output");
-button.addEventListener("click",addText);
-input.addEventListener("keypress", function(e) {
-  if (e.key === 'Enter') {
+button.addEventListener("click", addText);
+input.addEventListener("keypress", function (e) {
+  if (e.key === "Enter") {
     addText();
   }
 });
@@ -94,7 +94,7 @@ function addText() {
   output.innerHTML = addedText.join("<br>");
 }
 
-window.onload = function() {
+window.onload = function () {
   if (localStorage.getItem("addedText")) {
     addedText = JSON.parse(localStorage.getItem("addedText"));
     output.innerHTML = addedText.join("<br>");
