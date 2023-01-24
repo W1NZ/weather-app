@@ -53,6 +53,12 @@ body {
         text-align: center;
         text-transform: uppercase;
 
+        .wyrownanie{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+        }
+
         .temperatureDescription {
           padding: 10px 20px;
           font-weight: bold;
@@ -65,7 +71,7 @@ body {
         }
 
         img {
-          width: 30%;
+          height: 15%;
         }
       }
       .app-bottom {

@@ -49,6 +49,11 @@ body .container main .temperatureBox {
   text-align: center;
   text-transform: uppercase;
 }
+body .container main .temperatureBox .wyrownanie {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 body .container main .temperatureBox .temperatureDescription {
   padding: 10px 20px;
   font-weight: bold;
@@ -59,7 +64,7 @@ body .container main .temperatureBox .temperature {
   font-weight: bolder;
 }
 body .container main .temperatureBox img {
-  width: 30%;
+  height: 15%;
 }
 body .container main .app-bottom {
   font-weight: bold;
